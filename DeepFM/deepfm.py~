@@ -6,7 +6,7 @@ from mylayers import MySumLayer
 from keras.optimizers import Adam
 import config
 from keras.metrics import binary_accuracy
-from metrics import auc
+from metrics import jacek_auc
 import warnings
 warnings.filterwarnings('ignore')
 
